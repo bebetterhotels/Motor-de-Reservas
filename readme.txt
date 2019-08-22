@@ -42,8 +42,6 @@ Read the BeBetterHotels privacy policy here: https://www.bebetterhotels.com/poli
 = Example =
 > [bebetterhotels customer="dummyhotel" adults_field="required" childrens_field="required" show_childrens="yes"]
 
-== Screenshots ==
-
 == Frequently Asked Questions ==
 
 = Is BeBetterHotels Booking Form Plugin free? =
