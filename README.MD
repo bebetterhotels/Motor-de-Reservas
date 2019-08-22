@@ -1,8 +1,10 @@
 # Description
 
-The BBH Booking Form plugin create a simple, customizable and clean booking form to connect your BeBetterHotels customer id with our search engine.
+The BBH Booking Form plugin create a simple, customizable and clean booking form to connect your [BeBetterHotels](https://www.bebetterhotels.com/) customer id with our search engine.
 
 The plugin sends the catched fields trought your webform to the website https://clickandbook.net without share any aditional information.
+
+BeBetterHotels [terms](https://www.bebetterhotels.com/terms/) and [privacy policy](https://www.bebetterhotels.com/politicas-de-privacidad/)
 
 ## Requirements
 > * PHP 5.6 or higher (PHP7 recommended)
@@ -31,4 +33,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
+[GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)cc
