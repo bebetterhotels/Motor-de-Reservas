@@ -17,6 +17,10 @@ The BBH Booking Form plugin create a simple, customizable and clean booking form
 
 The plugin sends the catched fields trought your webform to the website https://clickandbook.net without share any aditional information.
 
+Read the BeBetterHotels terms here: https://www.bebetterhotels.com/terms/
+
+Read the BeBetterHotels privacy policy here: https://www.bebetterhotels.com/politicas-de-privacidad/
+
 = Requirements =
 > * PHP 5.6 or higher (PHP7 recommended)
 > * WordPress 5.0 or higher
@@ -30,7 +34,7 @@ The plugin sends the catched fields trought your webform to the website https://
 1. Configure the UI aspects of the plugin in submenu: Tools > BeBetterHotels
 2. Availables Shortcodes: [bebetterhotels]
 = Parameters =
-> * customer
+> * customer: BeBetterHotels Customer ID
 > * adults_field: Determine if the field is required or optional - allow values: 'required' or blank
 > * childrens_field: Determine if the field is required or optional - allow values: 'required' or blank
 > * show_childrens: Show or Hide Childrens Dropdown field - allow values: 'yes' or 'no'
