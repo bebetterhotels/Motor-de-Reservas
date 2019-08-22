@@ -1,0 +1,103 @@
+.b-container {
+    display:flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.b-form {
+    margin: auto;
+}
+
+.b-form > div {
+    float: left;
+    margin-right: 2%;
+}
+
+.b-form .sels_date {
+	display: none;
+}
+
+.b-form .arrival,
+.b-form .departure,
+.b-form .adults,
+.b-form .childrens {
+   	width: 15%;
+    position: relative;
+}
+
+.b-form input.b-input {
+	width: 100%;
+    padding: 16px;
+    border-width: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.b-form select.b-select {
+	box-sizing: border-box;
+    width: 100%;
+    padding: 16px 20px 16px 10px;
+    border: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.b-form div.adults:after,
+.b-form div.childrens:after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    margin-top: 3px;
+    border: 6px solid;
+    border-color: #666 transparent transparent transparent;
+    content: "";
+    transform: translateY(-50%);
+    pointer-events: none;
+
+}
+
+.b-form option {
+	color: graytext;
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.bookbtn button {
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    display: inline-block;
+    margin: 0 0 0 15px;
+    font-family: inherit;
+    cursor: pointer;
+}
