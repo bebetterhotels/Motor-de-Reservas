@@ -5,7 +5,7 @@
  * Description: BeBetterHotels Shortcode for the Booking Form.
  * Author: BeBetterHotels
  * Author URI: https://www.bebetterhotels.com/
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: bebetterhotels
  * Domain Path: /languages
  *
@@ -13,7 +13,7 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 define( 'BBH_DIR', plugin_dir_path( __FILE__ ) );
-define( 'BBH_VERSION', '1.0.0' );
+define( 'BBH_VERSION', '1.0.1' );
 
 if ( ! class_exists( 'BBH_Template_Loader' ) ) {
   require plugin_dir_path( __FILE__ ) . 'includes/class-bbh-template-loader.php';
@@ -56,6 +56,7 @@ if ( !function_exists( 'bbh_options_page' ) ) {
 	        'manage_options',
 	        'bebetterhotels',
 	        'bbh_options_page_html'
+
 	    );
 	}
 }

@@ -19,7 +19,11 @@
 }
 
 .b-form .arrival,
-.b-form .departure,
+.b-form .departure {
+    width: 18%;
+    position: relative;
+}
+
 .b-form .adults,
 .b-form .childrens {
    	width: 15%;
@@ -28,14 +32,13 @@
 
 .b-form input.b-input {
 	width: 100%;
-    padding: 16px;
+    padding: 11px;
     border-width: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     color: #999;
     background-color: #eee;
-    font-size: 14px;
     -webkit-appearance: none;
     cursor: pointer;
 }
@@ -43,7 +46,7 @@
 .b-form select.b-select {
 	box-sizing: border-box;
     width: 100%;
-    padding: 16px 20px 16px 10px;
+    padding: 10px;
     border: 0;
     border-radius: 0;
     color: #999;
@@ -75,13 +78,13 @@
     font-weight: normal;
     display: block;
     white-space: pre;
-    min-height: 1.2em;
+    min-height: 1em;
     padding: 0px 2px 1px;
 }
 
 .bookbtn button {
     position: relative;
-    padding: .3em 1em;
+    padding: .2em 1em;
     border: 2px solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -100,4 +103,9 @@
     margin: 0 0 0 15px;
     font-family: inherit;
     cursor: pointer;
+}
+
+/** https://stackoverflow.com/questions/659588/how-to-resize-the-jquery-datepicker-control */
+div.ui-datepicker {
+    font-size: 0.9em;
 }
