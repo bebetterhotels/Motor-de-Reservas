@@ -55,6 +55,9 @@ Yes you can! Join in on our [GitHub repository](https://github.com/joseayram/bbh
 
 == Changelog ==
 
+= 1.0.5  - (October 20, 2019)=
+* Change font-size measures
+
 = 1.0.4  - (October 20, 2019)=
 * Fix spanish translation
 
