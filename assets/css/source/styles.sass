@@ -1,0 +1,115 @@
+$controls-color: #999
+$controls-background-color: #eee
+$cursor: pointer
+
+=border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	border-radius: $radius
+
+=appearance($property)
+	-webkit-appearance: $property
+	-moz-appearance: $property
+	appearance: $property
+
+.bbh-form-wrapper
+	max-width: 800px
+	width: 100%
+	margin: 0 auto
+	padding: 0.8em 0 0.8em 0
+	+border-radius(5px)
+	margin-bottom: 1em
+.bbh-form-container
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-between
+	align-items: center
+	.bbh-form-item
+		flex-basis: 15%
+	.sels_date
+		display: none
+	.bbh-date-input
+		width: 100%
+		padding: 0.7em
+		border: 0
+		+border-radius(0)
+		+appearance(none)
+		color: $controls-color
+		background-color: $controls-background-color
+		cursor: $cursor
+		font-size: 1em
+	.bbh-select
+		width: 100%
+		font-size: 1em
+		box-sizing: border-box
+		padding: 0.65em
+		border: 0
+		color: $controls-color
+		background-color: $controls-background-color
+		+border-radius(0)
+		+appearance(none)
+		cursor: $cursor
+		option
+			color: graytext
+			font-weight: normal
+			display: block
+			white-space: pre
+			min-height: 1em
+			padding: 0px 2px 1px
+	.bbh-adults, .bbh-childrens
+		position: relative
+		&:after
+			content: ""
+			position: absolute
+			top: 50%
+			right: 10px
+			width: 0
+			height: 0
+			margin-top: 3px
+			border: 6px solid
+			border-color: #666 transparent transparent transparent
+			transform: translateY(-50%)
+			pointer-events: none
+
+	.bbh-button
+		padding: .4em 1em
+		border: 2px solid
+		+border-radius(3px)
+		background-color: transparent
+		background-repeat: no-repeat
+		background-position: center
+		background-size: cover
+		font-size: 1em
+		font-weight: 700
+		text-transform: uppercase
+		line-height: 1.7em
+		-webkit-transition: all .2s
+		-moz-transition: all .2s
+		transition: all .2s
+		display: inline-block
+		font-family: inherit
+		cursor: $cursor
+
+div.ui-datepicker
+	font-size: 0.9em
+
+@media (min-width: 768px) and (max-width: 999px)
+	.bbh-form-container
+		.bbh-form-item
+			flex-basis: 50%
+		.bbh-form-item.bbh-book-btn
+			flex-basis: 100%
+			flex-grow: 1
+			.bbh-button
+				width: 100%
+
+@media (min-width: 300px) and (max-width: 767px)
+	.bbh-form-container
+		flex-direction: column
+		flex-wrap: nowrap
+		.bbh-form-item
+			flex-basis: 100%
+			flex-grow: 1
+			.bbh-button
+				width: 100%

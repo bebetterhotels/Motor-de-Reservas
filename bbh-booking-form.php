@@ -13,7 +13,7 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 define( 'BBH_DIR', plugin_dir_path( __FILE__ ) );
-define( 'BBH_VERSION', '1.0.1' );
+define( 'BBH_VERSION', '1.0.2' );
 
 if ( ! class_exists( 'BBH_Template_Loader' ) ) {
   require plugin_dir_path( __FILE__ ) . 'includes/class-bbh-template-loader.php';
@@ -280,7 +280,7 @@ if ( !function_exists( 'bbh_dropdown_numeric_options' ) ) {
 	/**
 	 * Helper to generate numeric options
 	 */
-	function bbh_dropdown_numeric_options($placeholder, $from = 1, $to = 10 ) {
+	function bbh_dropdown_numeric_options($placeholder, $from = 1, $to = 10) {
 		$html = "<option value='' selected='selected' disabled='disabled'>"
 			  . __($placeholder, 'bebetterhotels')
 			  . "</option>";

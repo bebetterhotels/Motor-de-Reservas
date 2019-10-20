@@ -5,7 +5,7 @@ Tags: bebetterhotels, booking, booking form, appointment, reservations, calendar
 Requires at least: 5.2.0
 Tested up to: 5.2.4
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -54,6 +54,10 @@ Go to `Settings > BeBetterHotels`
 Yes you can! Join in on our [GitHub repository](https://github.com/joseayram/bbh-booking-form) 🙂
 
 == Changelog ==
+
+= 1.0.2  - (October 20, 2019)=
+* Add sass for stylesheets
+* Fix responsive design with flex
 
 = 1.0.1  - (October 17, 2019)=
 * Fix datepicker font size

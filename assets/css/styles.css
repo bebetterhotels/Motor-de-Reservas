@@ -1,90 +1,75 @@
-.b-container {
-    display:flex;
+.bbh-form-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.8em 0 0.8em 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em; }
+
+.bbh-form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  .bbh-form-container .bbh-form-item {
+    flex-basis: 15%; }
+  .bbh-form-container .sels_date {
+    display: none; }
+  .bbh-form-container .bbh-date-input {
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.b-form {
-    margin: auto;
-}
-
-.b-form > div {
-    float: left;
-    margin-right: 2%;
-}
-
-.b-form .sels_date {
-	display: none;
-}
-
-.b-form .arrival,
-.b-form .departure {
-    width: 18%;
-    position: relative;
-}
-
-.b-form .adults,
-.b-form .childrens {
-   	width: 15%;
-    position: relative;
-}
-
-.b-form input.b-input {
-	width: 100%;
-    padding: 11px;
-    border-width: 0;
+    padding: 0.7em;
+    border: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    color: #999;
-    background-color: #eee;
-    -webkit-appearance: none;
-    cursor: pointer;
-}
-
-.b-form select.b-select {
-	box-sizing: border-box;
-    width: 100%;
-    padding: 10px;
-    border: 0;
-    border-radius: 0;
-    color: #999;
-    background-color: #eee;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    color: #999;
+    background-color: #eee;
     cursor: pointer;
-}
-
-.b-form div.adults:after,
-.b-form div.childrens:after {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    width: 0;
-    height: 0;
-    margin-top: 3px;
-    border: 6px solid;
-    border-color: #666 transparent transparent transparent;
-    content: "";
-    transform: translateY(-50%);
-    pointer-events: none;
-
-}
-
-.b-form option {
-	color: graytext;
-    font-weight: normal;
-    display: block;
-    white-space: pre;
-    min-height: 1em;
-    padding: 0px 2px 1px;
-}
-
-.bookbtn button {
-    position: relative;
-    padding: .2em 1em;
+    font-size: 1em; }
+  .bbh-form-container .bbh-select {
+    width: 100%;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding: 0.65em;
+    border: 0;
+    color: #999;
+    background-color: #eee;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer; }
+    .bbh-form-container .bbh-select option {
+      color: graytext;
+      font-weight: normal;
+      display: block;
+      white-space: pre;
+      min-height: 1em;
+      padding: 0px 2px 1px; }
+  .bbh-form-container .bbh-adults, .bbh-form-container .bbh-childrens {
+    position: relative; }
+    .bbh-form-container .bbh-adults:after, .bbh-form-container .bbh-childrens:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      width: 0;
+      height: 0;
+      margin-top: 3px;
+      border: 6px solid;
+      border-color: #666 transparent transparent transparent;
+      transform: translateY(-50%);
+      pointer-events: none; }
+  .bbh-form-container .bbh-button {
+    padding: 0.4em 1em;
     border: 2px solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -93,19 +78,36 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.7em!important;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    transition: all .2s;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
     display: inline-block;
-    margin: 0 0 0 15px;
     font-family: inherit;
-    cursor: pointer;
-}
+    cursor: pointer; }
 
-/** https://stackoverflow.com/questions/659588/how-to-resize-the-jquery-datepicker-control */
 div.ui-datepicker {
-    font-size: 0.9em;
-}
+  font-size: 0.9em; }
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .bbh-form-container .bbh-form-item {
+    flex-basis: 50%; }
+  .bbh-form-container .bbh-form-item.bbh-book-btn {
+    flex-basis: 100%;
+    flex-grow: 1; }
+    .bbh-form-container .bbh-form-item.bbh-book-btn .bbh-button {
+      width: 100%; } }
+@media (min-width: 300px) and (max-width: 767px) {
+  .bbh-form-container {
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .bbh-form-container .bbh-form-item {
+      flex-basis: 100%;
+      flex-grow: 1; }
+      .bbh-form-container .bbh-form-item .bbh-button {
+        width: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */
