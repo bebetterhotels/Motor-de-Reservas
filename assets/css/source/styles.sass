@@ -1,6 +1,7 @@
 $controls-color: #999
 $controls-background-color: #eee
 $cursor: pointer
+$font-size: 14px
 
 =border-radius($radius)
 	-webkit-border-radius: $radius
@@ -38,10 +39,10 @@ $cursor: pointer
 		color: $controls-color
 		background-color: $controls-background-color
 		cursor: $cursor
-		font-size: 1em
+		font-size: $font-size
 	.bbh-select
 		width: 100%
-		font-size: 1em
+		font-size: $font-size
 		box-sizing: border-box
 		padding: 0.65em
 		border: 0
@@ -52,6 +53,7 @@ $cursor: pointer
 		cursor: $cursor
 		option
 			color: graytext
+			font-size: $font-size
 			font-weight: normal
 			display: block
 			white-space: pre
@@ -80,7 +82,7 @@ $cursor: pointer
 		background-repeat: no-repeat
 		background-position: center
 		background-size: cover
-		font-size: 1em
+		font-size: $font-size
 		font-weight: 700
 		text-transform: uppercase
 		line-height: 1.7em
@@ -92,7 +94,7 @@ $cursor: pointer
 		cursor: $cursor
 
 div.ui-datepicker
-	font-size: 0.9em
+	font-size: $font-size
 
 @media (min-width: 768px) and (max-width: 999px)
 	.bbh-form-container
