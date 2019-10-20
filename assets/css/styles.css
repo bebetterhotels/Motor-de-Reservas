@@ -94,20 +94,19 @@ div.ui-datepicker {
 
 @media (min-width: 768px) and (max-width: 999px) {
   .bbh-form-container .bbh-form-item {
-    flex-basis: 50%; }
+    flex-basis: 49%;
+    margin-bottom: 0.5em; }
   .bbh-form-container .bbh-form-item.bbh-book-btn {
     flex-basis: 100%;
     flex-grow: 1; }
     .bbh-form-container .bbh-form-item.bbh-book-btn .bbh-button {
       width: 100%; } }
 @media (min-width: 300px) and (max-width: 767px) {
-  .bbh-form-container {
-    flex-direction: column;
-    flex-wrap: nowrap; }
-    .bbh-form-container .bbh-form-item {
-      flex-basis: 100%;
-      flex-grow: 1; }
-      .bbh-form-container .bbh-form-item .bbh-button {
-        width: 100%; } }
+  .bbh-form-container .bbh-form-item {
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin-bottom: 0.2em; }
+    .bbh-form-container .bbh-form-item .bbh-button {
+      width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
