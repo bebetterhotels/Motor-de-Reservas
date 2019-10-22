@@ -93,6 +93,12 @@
 div.ui-datepicker {
   font-size: 14px; }
 
+.ui-state-default,
+.ui-datepicker-unselectable ui-state-disabled span.ui-state-default,
+.ui-datepicker td span,
+.ui-datepicker td a {
+  line-height: 20px; }
+
 @media (min-width: 768px) and (max-width: 999px) {
   .bbh-form-container .bbh-form-item {
     flex-basis: 49%;
