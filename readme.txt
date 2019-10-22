@@ -5,7 +5,7 @@ Tags: bebetterhotels, booking, booking form, appointment, reservations, calendar
 Requires at least: 5.2.0
 Tested up to: 5.2.4
 Requires PHP: 5.6
-Stable tag: 1.0.4
+Stable tag: 1.0.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -51,9 +51,12 @@ Yes, of course. This plugin is 100% free. No ads, no premium version exists.
 Go to `Settings > BeBetterHotels`
 
 = BBH Booking Form is awesome! Can I contribute? =
-Yes you can! Join in on our [GitHub repository](https://github.com/joseayram/bbh-booking-form) 🙂
+Yes you can! Join in on our [GitHub repository](https://github.com/bebetterhotels/bbh-booking-form) 🙂
 
 == Changelog ==
+
+= 1.0.6  - (October 22, 2019)=
+* Fix jQuery Line Height
 
 = 1.0.5  - (October 20, 2019)=
 * Change font-size measures
