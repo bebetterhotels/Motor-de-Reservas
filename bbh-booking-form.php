@@ -5,7 +5,7 @@
  * Description: BeBetterHotels Shortcode for the Booking Form.
  * Author: BeBetterHotels
  * Author URI: https://www.bebetterhotels.com/
- * Version: 1.0.6
+ * Version: 1.0.8
  * Text Domain: bebetterhotels
  * Domain Path: /languages
  *
@@ -13,7 +13,7 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 define( 'BBH_DIR', plugin_dir_path( __FILE__ ) );
-define( 'BBH_VERSION', '1.0.6' );
+define( 'BBH_VERSION', '1.0.8' );
 
 if ( ! class_exists( 'BBH_Template_Loader' ) ) {
   require plugin_dir_path( __FILE__ ) . 'includes/class-bbh-template-loader.php';
@@ -178,8 +178,11 @@ if ( !function_exists( 'bbh_shortcode' ) ) {
 
 		$options = bbh_get_options();
 
+		$locale = substr(get_locale(), 0 , 2);
+
 		$default_atts = array(
 			'url' => empty($options['url']) ? 'https://clickandbook.net/' : $options['url'],
+			'locale' => empty($options['locale']) ? $locale : $options['locale'],
 			'customer' => '',
 			'adults_field' => empty($options['adults_field']) ? 'required' : $options['adults_field'],
 			'childrens_field' => empty($options['childrens_field']) ? 'required' : $options['childrens_field'],

@@ -1,5 +1,5 @@
 <div class="bbh-form-wrapper">
-	<form action="<?php echo $data->url . $data->customer; ?>" method="post" class="bbh-form-container">
+	<form action="<?php echo $data->url . $data->customer . '?lang=' . $data->locale; ?>" method="post" class="bbh-form-container">
 		<div class="bbh-form-item bbh-arrive">
 			<input type="text" id="arrive" name="arrive" class="bbh-date-input" required placeholder="<?php _e("Arrival", "bebetterhotels"); ?>">
 			<?php echo bbh_generate_sels_date("check_in_day", "check_in_month"); ?>
