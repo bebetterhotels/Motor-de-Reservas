@@ -1,12 +1,17 @@
 <div class="bbh-form-wrapper">
-	<form action="<?php echo $data->url . $data->customer . '?lang=' . $data->locale; ?>" method="post" class="bbh-form-container">
+	<form action="<?php echo $data->url . $data->customer . '?lang=' . $data->locale; ?>"
+		method="post" class="bbh-form-container" autocomplete="off">
 		<div class="bbh-form-item bbh-arrive">
-			<input type="text" id="arrive" name="arrive" class="bbh-date-input" required placeholder="<?php _e("Arrival", "bebetterhotels"); ?>">
+			<input type="text" id="arrive" name="arrive" class="bbh-date-input"
+				required autocomplete="off"
+				placeholder="<?php _e("Arrival", "bebetterhotels"); ?>">
 			<?php echo bbh_generate_sels_date("check_in_day", "check_in_month"); ?>
 		</div>
 
 		<div class="bbh-form-item bbh-depart">
-			<input type="text" id="depart" name="depart" class="bbh-date-input" required placeholder="<?php _e("Departure", "bebetterhotels"); ?>">
+			<input type="text" id="depart" name="depart" class="bbh-date-input"
+				required autocomplete="off"
+				placeholder="<?php _e("Departure", "bebetterhotels"); ?>">
 			<?php echo bbh_generate_sels_date("check_out_day", "check_out_month"); ?>
 		</div>
 
