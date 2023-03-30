@@ -3,9 +3,9 @@
 Contributors: bebetterhotels, tipicaweb, joseayram
 Tags: bebetterhotels, booking, booking form, appointment, reservations, calendar, service, hotels
 Requires at least: 5.2.0
-Tested up to: 5.2.4
+Tested up to: 6.1.1
 Requires PHP: 5.6
-Stable tag: 1.0.9
+Stable tag: 1.0.10
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,7 +22,7 @@ Read the BeBetterHotels terms here: https://www.bebetterhotels.com/terms/
 Read the BeBetterHotels privacy policy here: https://www.bebetterhotels.com/politicas-de-privacidad/
 
 = Requirements =
-> * PHP 5.6 or higher (PHP7 recommended)
+> * PHP 5.6 or higher (PHP8 recommended)
 > * WordPress 5.0 or higher
 > * A BeBetterHotels customer id
 
