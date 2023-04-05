@@ -7,8 +7,8 @@ The plugin sends the catched fields trought your webform to the website https://
 BeBetterHotels [terms](https://www.bebetterhotels.com/terms/) and [privacy policy](https://www.bebetterhotels.com/politicas-de-privacidad/)
 
 ## Requirements
-> * PHP 5.6 or higher (PHP7 recommended)
-> * WordPress 5.0 or higher
+> * PHP 7.4 or higher
+> * WordPress 5.2.0 or higher
 > * A BeBetterHotels customer id
 
 ## Installation
