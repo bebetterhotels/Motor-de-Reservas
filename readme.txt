@@ -5,7 +5,7 @@ Tags: bebetterhotels, booking, booking form, appointment, reservations, calendar
 Requires at least: 5.2.0
 Tested up to: 6.2
 Requires PHP: 7.4
-Stable tag: 1.0.12
+Stable tag: 1.0.13
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,40 +55,43 @@ Yes you can! Join in on our [GitHub repository](https://github.com/bebetterhotel
 
 == Changelog ==
 
-= 1.0.12 - (April 5, 2023)=
+= 1.0.13 - (April 10, 2023) =
+* Imp: Added Changelog file
+
+= 1.0.12 - (April 5, 2023) =
 * Fix: Applied Wordpress Standards Code
 
-= 1.0.11 - (April 4, 2023)=
+= 1.0.11 - (April 4, 2023) =
 * Fix: Removed deprecated versions of jquery-ui themes
 
-= 1.0.10 - (March 29, 2023)=
+= 1.0.10 - (March 29, 2023) =
 * Fix: Added most recents jquery-ui theme versions
 
-= 1.0.9  - (December 23, 2019)=
+= 1.0.9  - (December 23, 2019) =
 * Imp: Remove autocomplete form
 
-= 1.0.8  - (November 14, 2019)=
+= 1.0.8  - (November 14, 2019) =
 * New: Add language to url
 
-= 1.0.6  - (October 22, 2019)=
+= 1.0.6  - (October 22, 2019) =
 * New: Fix jQuery Line Height
 
-= 1.0.5  - (October 20, 2019)=
+= 1.0.5  - (October 20, 2019) =
 * Imp: Change font-size measures
 
-= 1.0.4  - (October 20, 2019)=
+= 1.0.4  - (October 20, 2019) =
 * Fix: spanish translation
 
-= 1.0.3  - (October 20, 2019)=
+= 1.0.3  - (October 20, 2019) =
 * Fix: responsive for smartphones & tablets
 
-= 1.0.2  - (October 20, 2019)=
+= 1.0.2  - (October 20, 2019) =
 * Imp: Add sass for stylesheets
 * Fix: responsive design with flex
 
-= 1.0.1  - (October 17, 2019)=
+= 1.0.1  - (October 17, 2019) =
 * Fix: datepicker font size
 * Fix: date inputs width
 
-= 1.0.0  - (August 22, 2019)=
+= 1.0.0  - (August 22, 2019) =
 * First Release
